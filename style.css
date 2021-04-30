@@ -1,0 +1,652 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+*{
+    font-family: 'Cairo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    height: 90px;
+    width: 100%;
+    display: inline block;
+    float: left;
+    display: inline-block;
+    float: left;
+}
+
+.logo{
+    width: 120px;
+    float: left;
+    margin-top: 42px;
+}
+
+.menu{
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 40px;
+    
+
+}
+.menu ul li{
+    margin-top: 30px;
+    float: left;
+   
+    
+
+
+}
+
+.menu ul li a{
+    font-size: 17px;
+    color: cornsilk;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 50px;
+   
+}
+
+.aboutresttt{
+    color: rgb(224, 83, 83);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15%;
+    margin-left: 1%;
+    
+}
+
+
+.wellcom.text{
+    color: rgb(135, 187, 15);
+    font-size: 10px;
+
+
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.slide{
+    
+    width: 100%;
+    height: 700px;
+    display: inline-block;
+    
+    background-image: url(../imgs/fed.jpg);
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    margin-left: 0px ;
+    margin-right: 0px;
+
+}
+.wellcom-text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50%;
+  
+    
+   
+    color: tomato; 
+ 
+}
+.wellcom-text a{
+    display: inline block;
+    padding: 20px 40px;
+   
+    
+    border: 1px solid #ffffff;
+    color:white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.meals{
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+    padding: 20px;
+    display: inline block;
+    padding: 10px 0;
+
+}
+.meal1{
+    width: 350px;
+   
+    float: left;
+   
+
+}
+.meal2{
+    width: 350PX;
+    display: inline block;
+    float: left;
+    margin: 20PX;
+    padding-top: 20PX;
+    text-decoration: none;
+  
+
+}
+
+
+.h2{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    
+   
+}
+
+
+.p{
+    color: rebeccapurple;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.rest{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    margin-left: 0px;
+    padding-left: 0px; 
+    background-image: url(../imgs/rest.jpg);
+    background-repeat: no-repeat;
+}
+   
+.wellcom-text2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50%;
+    
+    color: tomato;
+    margin: 1%;
+}
+.back{
+    background-color: 
+}
+
+.reserve{
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(../imgs/rest.jpg);
+    
+  
+}
+.h3{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.h4{
+    color: rgb(5, 5, 5);
+    font-size: 14px; 
+}
+
+.input[type="text"]{
+    background-color:white;
+    border: 1px ;
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+    margin: 3px 0;
+    direction: ltr;
+    font: lighter;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 20 40px;
+    text-align: center;
+ 
+   
+}
+
+.chef{
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    padding-left: 0px;
+   
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left: 0px;
+    background-image: url(../imgs/01.jpg);
+    background-repeat: no-repeat;
+}
+
+.team{
+    color: white;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 7%;
+    margin-left: 25%;
+
+}
+.teamchef{
+    color: rgb(235, 38, 38);
+    text-align: left;
+    font-size: 8px;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.teamchef1{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 2px;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+.teamchef1-h1{
+    color: rgb(9, 10, 66);
+    text-align: left;
+    font-size: 8px;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+.teamchef2{
+    color: rgb(101, 19, 109)
+    text-align: left;
+    font-size: 8px;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+.col-2{
+    margin-left: 55%;
+    margin-top: 20%;
+}
+
+.book{
+    color: rgb(230, 63, 63);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.btt1{
+    border: 1px solid rgb(235, 212, 212) ;
+    padding: 10px;
+    color: rgb(245, 226, 226);
+    background: rgb(230, 63, 63);
+    border-radius: 30px;
+    transition: all 0.2s;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 70px;
+    height: 40px;
+   
+    
+}
+.btt1:hover{
+    border: 1px solid rgb(201, 210, 231) ;
+    padding: 10px;
+    color: rgb(76, 47, 182);
+    background: rgb(233, 235, 236);
+    border-radius: 30px;
+    transition: all 0.2s;
+    font-size: 13px;
+}
+
+.btt2{
+    border: 1px solid rgb(66, 183, 212) ;
+    padding: 8px;  للازاحة حركة عالزر 
+    color: rgb(223, 224, 210);
+    background: rgb(224, 28, 28);
+    border-radius: 30px;
+    transition: all 0.2s;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 100px;
+    height: 20px;
+   
+    
+}
+.btt2:hover{
+    border: 1px solid rgb(31, 81, 189) ;
+    padding: 10px;
+    color: rgb(204, 181, 181);
+    background: rgb(233, 235, 236);
+    border-radius: 30px;
+    transition: all 0.2s;
+    font-size: 13px;
+}
+
+.h1{
+    color: rgb(185, 54, 54);
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+
+.order{
+    background-color:  rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 630px;
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+    
+    display: inline block;
+    padding: 10px 0;
+    margin-bottom: 0px;
+
+}
+
+.order1{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 80px;
+    padding-left: 80px;
+   padding-right: 80px;
+   padding: 10px;
+
+}
+.order1 h2 a{
+    font-size: 15px;
+    color: rgb(235, 55, 55);
+    font-weight: 200;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+   
+}
+.pofe{
+    width: 100%;
+    height: 550px;
+    display: inline-block;
+    padding-left: 0px;
+   
+    margin-left: 0px;
+   
+    padding-left: 0px;
+    background-image: url(../imgs/pofee.jpg);
+    background-repeat: no-repeat;
+}
+.aboutrest{
+    color: rgb(231, 43, 74);
+    text-align: left;
+    font-size: 10px;
+    margin-top: 8%;
+    margin-left: 38%;
+
+}
+.aboutrest-h1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+margin-left: 500px;  
+margin-top: 120px;  
+}
+.best-meals{
+    color: rgb(221, 60, 60);
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 40px;
+
+    margin-left: 35%;
+
+}
+.wedding-h1{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 18px;
+    margin-left: 200px;  
+    margin-top: 320px;  
+}
+.weddingb{
+    color: rgb(236, 227, 227);
+    text-align: left;
+    font-size: 6px;
+    margin-top: 25%;
+    margin-left: 38%;
+}
+
+.apply{
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    padding-left: 0px;
+    margin-top: 250px;
+    margin-left: 0px;
+    padding-left: 0px;
+    background-image: url(../imgs/apply.jpg);
+    background-repeat: no-repeat;
+    
+   
+}
+
+.aboutrestt{
+    color: rgb(221, 60, 60);
+    text-align: left;
+    font-size: 13px;
+    margin-top: 4%;
+    margin-left: 40%;
+
+}
+
+
+
+
+}
+.butt{
+    border: 1px solid rgb(235, 212, 212) ;
+    padding: 15px;
+    color: rgb(245, 226, 226);
+    background: rgb(230, 63, 63);
+    border-radius: 8px;
+    transition: all 0.2s;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 20px;
+    
+}
+.butt:hover{
+    border: 1px solid rgb(31, 81, 189) ;
+    padding: 15px;
+    color: rgb(39, 17, 17);
+    background: rgb(233, 235, 236);
+    border-radius: 5px;
+    transition: all 0.2s;
+    font-size: 15px;
+}
+
+.btt{
+    border: 1px solid rgb(235, 212, 212) ;
+    padding: 15px 20px;
+    color: rgb(245, 226, 226);
+    background: rgb(230, 63, 63);
+    border-radius: 8px;
+    transition: all 0.2s;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 300px;
+    background: none;
+   
+    
+   
+    
+}
+.btt:hover{
+    border: 1px solid rgb(31, 81, 189) ;
+    padding: 15px;
+    color: rgb(39, 17, 17);
+    background: rgb(233, 235, 236);
+    border-radius: 5px;
+    transition: all 0.2s;
+    font-size: 15px;
+}
+
+
+
+.testimonial{
+    width: 100%;
+    display: inline-block;
+    float: left;
+    padding: 80px 0;
+    text-align: center;
+}
+.testimonial img{
+    width: 150px;
+}
+.testimonial .item{
+    padding: 25px 160px;
+
+}
+.testimonial h4{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 25px 0;
+    color: rgb(250, 52, 45);
+
+}
+
+.testimonial p{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+    color: darkblue;
+}
+.testimonial hr{
+    width: 90px;
+    height: 1px;
+    background-color: darkmagenta;
+    margin: 30px auto;
+}
+.testimonial span{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(63, 62, 63);
+}
+ 
+.owl-theme .owl-controls .owl-page.active span{
+    background: rgb(141, 35, 0);
+}
+
+
+
+.contact{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(41, 30, 27);
+    background-repeat: no-repeat;
+    float: left;
+
+   
+}
+.contact h6{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(252, 241, 241);
+    background-color: rgb(250, 54, 54);
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 25px;
+   padding: 15px 0;
+}
+
+
+.contact span{
+    font-size: 20px;
+    font-style: italic;
+    color: honeydew;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+    padding: 55px 0;
+    background-color: gray;
+    float: left;
+
+}
+
+.footer .left{
+    float: left;
+    max-width: 400px;
+}
+
+.footer .left h6{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: rgb(194, 36, 36);
+    margin-top: 20px;
+}
+
+.footer .left p{
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 28px;
+}
+.footer .right{
+    float: right;
+    max-width: 300px;
+}
+.footer .right a{
+    width: 50px;
+    float: left;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
